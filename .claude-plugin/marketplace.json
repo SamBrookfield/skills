@@ -1,0 +1,14 @@
+{
+  "name": "sambrookfield-skills",
+  "owner": { "name": "Sam Brookfield" },
+  "metadata": { "description": "Agent Skills and prompts by Sam Brookfield", "version": "0.5.0" },
+  "plugins": [
+    {
+      "name": "life-envision",
+      "description": "Guided conversation to picture the life you want in specific detail, ending in a four-chapter profile with costs and requirements.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/life-envision"]
+    }
+  ]
+}
